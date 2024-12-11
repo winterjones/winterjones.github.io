@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    font-family: Azeret Mono;
+    box-sizing: border-box;
+}
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+}
+body 
+{ 
+    background:rgb(14, 29, 25); 
+} 
+.side-box
+{
+    height: 100px;
+    width: 250px;
+    padding: 10px;   
+    margin: 5px;
+    color: #ffffff;;
+    background-color: #247258;
+    text-align: justify;
+}
+.logo-box{
+    height: 150px;
+    width: 175px;
+    background-image: url("images/icon.png");
+    background-size: cover;
+    display: inline-block;
+}
+.logo-box:hover{
+    background-image: url(images/icon_alt.png);
+    cursor: pointer;
+}
+#catamyst{
+    background-image: url(images/catamyst.png);
+    background-size: cover;
+}
+#catamyst:hover{
+    background-image: url(images/catamyst_alt.png);
+    cursor: pointer;
+
+}
