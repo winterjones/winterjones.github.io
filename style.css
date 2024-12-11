@@ -35,11 +35,11 @@ body
     cursor: pointer;
 }
 #catamyst{
-    background-image: url(images/catamyst.png);
+    background-image: url(images/Catamyst.png);
     background-size: cover;
 }
 #catamyst:hover{
-    background-image: url(images/catamyst_alt.png);
+    background-image: url(images/Catamyst_alt.png);
     cursor: pointer;
 
 }
