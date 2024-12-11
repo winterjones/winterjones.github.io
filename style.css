@@ -20,15 +20,23 @@ body
     padding: 10px;   
     margin: 5px;
     color: #ffffff;;
-    background-color: #247258;
+    background-color: #2c8d6d;
     text-align: justify;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+}
+.active{
+    border-width: 2px;
+    border-color: rgb(122, 255, 82);
+    border-style: double;
 }
 .logo-box{
     height: 150px;
-    width: 175px;
+    width: 175px;    
+    margin-left: 30px;
     background-image: url("images/icon.png");
     background-size: cover;
-    display: inline-block;
 }
 .logo-box:hover{
     background-image: url(images/icon_alt.png);
@@ -41,5 +49,25 @@ body
 #catamyst:hover{
     background-image: url(images/catamystbanner_alt.png);
     cursor: pointer;
-
+    border-width: 2px;
+    border-color: rgb(132, 74, 158);
+    border-style: double;
+}
+.main-container{
+    height: 750px;
+    width: 85%;
+    display: inline-block;
+    background-color: #247258;
+    vertical-align: top;
+    margin: 4px;
+    overflow-y: scroll;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+}
+.main-sidebar{
+    width: 13%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
 }
