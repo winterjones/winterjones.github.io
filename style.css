@@ -13,6 +13,27 @@ body
 { 
     background:rgb(14, 29, 25); 
 } 
+#catamyst:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: url(images/catamystbanner_alt.png);
+    content: '';
+}
+#sots:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: url(images/sotsbanner_alt.png);
+    content: '';
+}
+#otherproj:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: url(images/otherbanner_alt.png);
+    content: '';
+}
 .side-box
 {
     height: 100px;
