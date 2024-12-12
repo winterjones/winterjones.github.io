@@ -34,6 +34,14 @@ body
     background: url(images/otherbanner_alt.png);
     content: '';
 }
+.logo-box::before{
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: url(images/icon_alt.png);
+    content: '';
+}
+/* Sidebar Buttons */
 .side-box
 {
     height: 100px;
@@ -95,6 +103,7 @@ body
     border-color: rgb(132, 74, 158);
     border-style: double;
 }
+/* Core Containers */
 .main-container{
     height: 750px;
     width: 85%;
