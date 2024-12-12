@@ -46,9 +46,10 @@ body
 {
     height: 100px;
     width: 100%;
-    padding: 10px;   
+    padding: 5px;
+    font-size: 20px;
     margin: 5px;
-    color: #ffffff;;
+    color: #ffffffe3;;
     text-align: justify;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
@@ -108,7 +109,7 @@ body
     height: 750px;
     width: 85%;
     display: inline-block;
-    background-color: #247258;
+    background-color: #11382a;
     vertical-align: top;
     margin: 4px;
     overflow-y: scroll;
