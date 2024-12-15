@@ -8,10 +8,22 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="logo-box" onclick="window.location='.';"></div>
         <header class="main-header">                    
             <!--top left logo-->
-            <div class="logo-box" onclick="window.location='.';">       
-            </div>
+                <div class="social-icon" id="bsky-icon">
+                    <a href="https://bsky.app/bugsaretasty.dev" target="_blank" rel="noopener noreferrer"> </a>
+                </div>
+                <div class="social-icon" id="yt-icon">
+                    <a href="https://youtube.com/@bugsaretasty" target="_blank" rel="noopener noreferrer"> </a>
+                </div> 
+                <div class="social-icon" id="twitch-icon">
+                    <a href="https://twitch.tv/bugsaretasty" target="_blank" rel="noopener noreferrer"> </a>
+                </div> 
+                <div class="social-icon" id="itch-icon">
+                    <a href="https://bugsaretasty.itch.io/" target="_blank" rel="noopener noreferrer"> </a>
+                </div>
+                <h2 id="email">enquiries: <a id="link" href="mailto:contact@bugsaretasty.dev" target="_blank" rel="noopener noreferrer">contact@bugsaretasty.dev</a></h2>
         </header> 
         <div class="main-sidebar">            
             <div id="catamyst" class="side-box active" onclick="window.location='catamyst.html';">
@@ -23,15 +35,37 @@
             <div id="otherproj" class="side-box" onclick="window.location='other-projects.html';">
                 Other Projects
             </div>
+            <div id="artpage" class="side-box" onclick="window.location='art.html';">
+                Art
+            </div>
         </div>
         <div class="main-container">
-            <!-- Catamyst -->  
-             <div class="video-player">
-                 <iframe width="420" height="315"
-                 src="https://www.youtube.com/watch?v=E2gmsSDwY80">
-                 </iframe>                           
-             </div>
+            <div id="catamyst-left" class="left-main">
+                <h3 style="color:rgb(58, 199, 145)">Catamyst is an action roguelike game designed around creating and throwing potions at hordes of molecular enemies, in a fusion of science and magic!</h3>                  
+                <p>You play as <b>Willow</b> - a cat witch who has a powerful cauldron bag that can produce potions for them on the fly, whilst learning how to power them up with use.</p>
+                <p>Along the way you'll unlock powerful enchantments that upgrade your capabilities to take on tougher waves. Catamyst boasts endless replayability with run modifiers and powerful artifacts to take on each run.</p>            
+                <p>Catamyst released on <b>August 19th 2024 via Steam!</b></p>
+                <br>
+                <iframe src="https://store.steampowered.com/widget/2959740/" frameborder="0" width="746" height="190"></iframe>
+                <div id="catamyst-creds">
+                    <p>- Code, pixel art and project management by myself.</p>
+                    <p>- Audio & Sound Design by <a id="link" href="https://youtube.com/@cochu" target="_blank" rel="noopener noreferrer">Cochu</a>.</p>
+                    <p>- Key Art & Willow Character Design commissioned from <a id="link" href="https://carnybytes.carrd.co/" target="_blank" rel="noopener noreferrer">Carnybytes</a>.</p>
+                </div>
+
+            </div>
+            <div class="right-main">
+                <div class="image-container">
+                  <img src="/images/catamyst-header.png" height="300">
+                </div>
+                <div class="vid-container">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/E2gmsSDwY80?si=xiV7o3t5oM60ckRX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div> 
+            </div>                          
         </div>
         
     </body>
+    <div class="footer">
+        Copyright © 2024 by bugsaretasty | All images, logos and names are used with permission.
+    </div>
 </html>
