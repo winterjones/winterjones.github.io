@@ -1,10 +1,12 @@
 [
     {
         "id":0,
-        "notice":"Catamyst Update Test"
+        "notice":"Test",
+        "url":""
     },
     {
         "id":1,
-        "notice":"Catamyst Update Test 2"
+        "notice":"Catamyst 1.1 is here! Click here to check the patch notes.",
+        "url":"https://bsky.app/profile/bugsaretasty.dev"
     }
 ]
